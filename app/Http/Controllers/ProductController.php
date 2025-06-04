@@ -28,6 +28,7 @@ class ProductController extends Controller
             'stock' => 'required|integer',
             'description' => 'nullable|string',
         ]);
+        
 
         $product = Product::create($validated);
 
